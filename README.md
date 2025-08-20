@@ -89,24 +89,23 @@ SUB AX,BX
 
 ## Multiplication 
 ```
-org 100h
-MOV AX,0F0Eh
-MOV BX,4040h
-MUL AX
+org 100H
+MOV AL,74H
+MOV BL,69H
+MUL BL
 HLT
-ret
 ``` 
-<img width="1919" height="1079" alt="Screenshot 2025-08-20 102743" src="https://github.com/user-attachments/assets/d1cc76fa-c8aa-4ba1-a0a4-73290f57ca4c" />
+![IMAGEEEE](https://github.com/user-attachments/assets/8e9752e1-a2ca-486f-87f7-213a542c571c)
 
 ## Division 
 ```
-MOV AX,0F0Eh
-MOV BX,4040h
-DIV AX
-HLT
-ret 
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT 
 ```
-<img width="1919" height="1079" alt="Screenshot 2025-08-20 102855" src="https://github.com/user-attachments/assets/424f2732-08d1-4580-9b41-91cd3f6adff2" />
+![IMAGEEEEEEEEEEEEE](https://github.com/user-attachments/assets/44f73fb8-6b3e-4c12-beb5-a218beedea7d)
+
 
 ## LOGICAL OPERATORS
 ## AND
