@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : ARULARASI U
-Roll no : 212223100002 
-Date of experiment : 20.08.2025
+### Name : ARULARASI U
+### Roll no : 212223100002 
+### Date of experiment : 20.08.2025
 
 ## Aim
 To Write and execute ALP on fundamental arithmetic and logical operations
